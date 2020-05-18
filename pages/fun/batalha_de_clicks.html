@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BATALHA DE CLICKS</title>
+	<meta charset="utf-8">
+</head>
+<audio id="mlg" src="https://cdn.discordapp.com/attachments/253216409386090517/406245685999173642/10convert.com_-BEST-MLG-SONG-EVER--DAMN-SON-MLG-SONG-R-E-M-I-X_qM4XS19jtlg.mp3" autoplay loop></audio>
+<audio id="aud" src="https://cdn.discordapp.com/attachments/253216409386090517/406238903188848640/10convert.com_Naruto-Theme-The-Raising-Fighting-Spirit_mjjkHg5FOhk.mp3"></audio>
+
+<body class="geral" id="bd" style="zoom: 120%; text-align: center;">
+<div id="inicio">
+	<img class="soco" id="soco" src="http://clipartist.net/RSS/openclipart.org/2012/February/CLIPARTIST.NET/MOUSE/mouse_pointer_fist_wall_paper-999px.png" width="100">
+	<H1>BATALHA DE CLICKS</H1><br>
+<h2>Quantos jogadores?</h2>
+<button onclick="sj2()">2</button>
+<button onclick="alert('quem sabe um dia... to com preguiça')">3</button>
+<button onclick="alert('quem sabe um dia... to com preguiça')">4</button><br><br>
+<span onclick="anioff()"><button id="ani" value="ani">desabilitar animações</button></span>
+</div>
+
+<div id="ga" style="border: solid green; display: none; width: 120px; zoom:230%;">
+	<h2><span id="sec">10</span></h2>
+	<br>
+	<p>pontos: <span id="pts">0</span></p>
+	<button onclick="pt()" id="tet" class="bt" style="height: 60px;">CLIQUE!!!</button><br><br>
+</div>
+<script type="text/javascript">
+	var sec = 10;
+	var pt1 = 0;
+	var pt2 = 0;
+	var pt3 = 0;
+	var pt4 = 0;
+	var drop = setTimeout(function() {
+		document.getElementById('bd').style.animationName = 'tada';
+		document.getElementById('bd').className = 'tada';
+	}, 21500); // drop...
+	function sj2() {
+		clearTimeout(drop);
+		document.getElementById('mlg').pause();
+		document.getElementById('bd').className = '';
+		document.getElementById('aud').play();
+		document.getElementById("tet").onclick = pt;
+		document.getElementById('bd').style.animationName = 'tada';
+		document.getElementById('bd').className = 'tada';
+		document.getElementById('bd').style.animationIterationCount = 'infinite';
+		// COMEÇA A CONTAGEM
+		alert("3");alert("2");alert("1");alert("CLICAAAR!!");
+		// O TEMPO COMEÇA
+		var si = setInterval(function() {
+			document.getElementById('sec').innerHTML = sec--; // DIMINUINDO O TEMPO...
+			// ACABA OS SEGUNDOS
+			if (sec < 0) {
+				sec = 10; // COMEÇA DE NOVO
+				clearInterval(si); // PARA O TEMPO
+				document.getElementById('tet').onclick = pts2; // TROCA O CLICK PARA O JOGADOR 2
+				// COMEÇA A CONTAGEM
+				alert("vez do jogador 2!!!");
+				alert("3");alert("2");alert("1");alert("CLICAAAR!!");
+				// ZERA OS PTS
+				document.getElementById('pts').innerHTML = 0;
+				// O TEMPO COMEÇA
+					var si2 = setInterval(function() {
+						document.getElementById('sec').innerHTML = sec--;
+						if (sec < 0) {
+							clearInterval(si2); // PARA O TEMPO
+							// HORA DE SABER QUEM FOI O WINNER
+							alert("hora de saber o vencedor!");
+							if (pt1 > pt2) {
+								document.write("<title>VENCEDOR!</title><div style='text-align:center;'><br><br><br><h1 style='color: white;'>JOGADOR 1 VENCEU!</h1></div>");
+								document.body.style.background = "url(https://www.speakgif.com/wp-content/uploads/2015/12/exploding-fireworks-animated-gif.gif)";
+								document.body.style.backgroundSize = 'cover';
+
+							}
+							if (pt2 > pt1) {
+								document.write("<title>VENCEDOR!</title><div style='text-align:center;'><br><br><br><h1 style='color: white;'>JOGADOR 2 VENCEU!</h1></div>");
+								document.body.style.background = "url(https://www.speakgif.com/wp-content/uploads/2015/12/exploding-fireworks-animated-gif.gif)";
+								document.body.style.backgroundSize = 'cover';
+							}
+							if (pt1 == pt2) {
+								document.write("<title>VENCEDOR!</title><div style='text-align:center;'><br><br><br><h1 style='color: white;'>EMPATE</h1></div>");
+								document.body.style.background = "url(https://media2.giphy.com/media/7rj2ZgttvgomY/giphy.gif)";
+								document.body.style.backgroundSize = 'cover';
+							}
+						}
+					},1000);
+			}
+		}, 1000);
+		// ...
+		document.getElementById('inicio').style.display = "none";
+		document.getElementById('ga').style.display = "inline-block";
+	}
+	function sj3() {
+
+	}
+	function sj4() {
+
+	}
+	function pt() {
+		pt1++;
+		document.getElementById('pts').innerHTML = pt1;
+	}
+	function pts2() {
+		pt2++;
+		document.getElementById('pts').innerHTML = pt2;
+
+	}
+	function anioff() {
+    document.getElementById('soco').style.animationPlayState = "paused";
+    document.getElementById('bd').style.animationPlayState = "paused";
+    document.getElementById('tet').style.animationPlayState = "paused";
+	} 
+  function anion() {
+    document.getElementById('soco').style.animationPlayState = "running";
+    document.getElementById('bd').style.animationPlayState = "running";
+    document.getElementById('tet').style.animationPlayState = "running";
+  }
+</script>
+<style type="text/css">
+	.bt{
+  -webkit-animation: lol linear 0.3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes lol {
+  0% {
+    -webkit-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  10% {
+    -webkit-transform:  rotate(-3deg) scaleX(0.80) scaleY(0.80) ;
+  }
+  20% {
+    -webkit-transform:  rotate(-3deg) scaleX(0.80) scaleY(0.80) ;
+  }
+  30% {
+    -webkit-transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  40% {
+    -webkit-transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  50% {
+    -webkit-transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  60% {
+    -webkit-transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  70% {
+    -webkit-transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  80% {
+    -webkit-transform:  rotate(-3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  90% {
+    -webkit-transform:  rotate(3deg) scaleX(1.20) scaleY(1.20) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) scaleX(1.20) scaleY(1.20) ;
+  }
+}
+.soco{
+  -webkit-animation: lol2 ease-in-out 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+.soco{
+  -webkit-animation: lol2 ease-in-out 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes lol2 {
+  0% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  17% {
+    -webkit-transform:  translate(0px,-10px)  ;
+  }
+  17% {
+    -webkit-transform:  translate(0px,-10px)  ;
+  }
+  34% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,-10px)  ;
+  }
+  67% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  83% {
+    -webkit-transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+}
+
+       .geral {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: bothWebkitAnimationPlayState  }
+  @-webkit-keyframes zoomInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+  transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+  transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  }
+  @keyframes zoomInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+  transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+  transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  } 
+       .tada {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+  }
+  @-webkit-keyframes tada {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+  -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+         .tada {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: 23;
+  }
+  @keyframes tada {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+  -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+
+
+</style>
+</body>
+</html>
