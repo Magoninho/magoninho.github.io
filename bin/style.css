@@ -42,3 +42,47 @@ a {
     width: 50%;
     margin: auto;
 }
+
+@media only screen and (max-width: 992px) {
+    p {
+        font-size: xx-large;
+    }
+    h1 {
+        font-size: 54pt;
+    }
+    #menu ul {
+        margin: auto;
+        background-color:  black;
+    }
+    
+    #menu ul li {
+        list-style: none;
+        display: inline;
+    }
+    
+    #menu ul li a {
+        margin: auto;
+        padding: 30px 20px;
+        display: inline-block;
+        text-decoration: none;
+        color: #ffff;
+        font-size: 40pt;
+    }
+    #gamejolt {
+        font-size: medium;
+    }
+    #logo, #logogames{
+        width: 554px;
+        height: auto;
+    }
+    iframe {
+        width: 100%;
+        height: 500px;
+
+    }
+    #conteudo {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+}
