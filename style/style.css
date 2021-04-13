@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: #98c379;
+}
+
+
+p, pre {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: #5c6370;
+    font-size: medium;
+}
+
+body {
+    margin: 0;
+    text-align: justify;
+    background-color: #282c34;
+}
+a {
+    text-decoration: underline #56b6c2;
+    color: #5c6370;
+}
+
+a:hover {
+    text-decoration: underline #c678dd;
+}
+
+.page-content {
+    margin: auto;
+    width: 50%;
+}
+
+.biography h2 {
+    text-align: left;
+}
+
+.biography span {
+    font-size: 20pt;
+}
+
+.wrapper {
+    margin-top: 20px;
+    position: fixed;
+}
+
+.showcase img {
+    width: 300px;
+    display: block;
+    margin-top: 5%;  
+    margin-bottom: 5%;
+    margin-right: auto;  
+    margin-left: auto;  
+    /* padding: 5%;   */
+}
+
+.showcase h3 {
+    text-align: left;
+}
+
+.menu {
+    position: absolute;
+    font-size: x-large;
+    width: max-content;
+}
+
+.menu ul {
+    display: inline;
+    font-family: 'JetBrains Mono', monospace;
+    list-style-type: none;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.menu a {
+    color: #98c379;
+    display: block;
+    padding: 8px;
+    text-decoration: none; 
+}
+
+.menu li a:hover {
+  background-color: #555;
+  color: #c678dd;
+}
+#begin-comment {
+    color: #98c379;
+    float: left;
+}
+
+#ending-comment {
+    color: #98c379;
+}
+
+#projects-normal {
+        display: none;
+    }
+
+.project-link h3:hover {
+    text-decoration: underline #56b6c2;
+}
+
+.rounded-image {
+    border: 3px;
+    border-radius: 10%; 
+    border-color: white; 
+    border-style: solid; 
+}
+
+@media (max-width: 1300px) {
+    span {
+        font-size: large;
+    }
+
+    .page-content {
+        word-wrap: break-word;
+        width: 90%;
+    }
+    .menu {
+        text-align: center;
+        font-size: large;
+        display: inline;
+        position: relative;
+        width: 100%;
+        top: 0;
+        background-color: #282c34;
+    }
+
+    .menu li { 
+        display: inline-block;
+    }
+
+    #begin-comment {
+        float: none;
+    }
+
+    .showcase p {
+        float: none;
+    }
+
+    #projects-ascii {
+        display: none;
+    }
+    #projects-normal {
+        display: inherit;
+    }
+
+    #menu-header {
+        display: none   ;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .biography {
+        font-size: medium;
+    }
+    
+    
+}
+
+
+@media (max-height: 700px) {
+    .menu {
+        text-align: center;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        display: inline;
+    }
+    .menu li { 
+        display: inline-block;
+    }
+
+    #begin-comment {
+        float: none;
+    }
+
+    #menu-header {
+        display: none;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+}
