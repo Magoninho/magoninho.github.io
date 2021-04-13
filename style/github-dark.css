@@ -1,0 +1,19 @@
+.white { color: #c9d1d9; }
+.function { color: #d2a8ff; } /* function() */
+.built-in-function { color: #bd93f9; }
+.string { color: #8b949e; } /* "string" */
+.comment { color: #8b949e; } /* // comment */
+.keyword { color: #ff7b72; } /* for, if, return */
+.background { background-color: #0d1117; }
+
+p, pre {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: #8b949e;
+    font-size: large;
+}
+
+.menu li a:hover {
+  background-color: #44475a;
+  color: #d2a8ff;
+}

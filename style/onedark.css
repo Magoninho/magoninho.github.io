@@ -4,3 +4,11 @@
 .string { color: #98c379; }
 .comment { color: #5c6370; }
 .keyword { color: #c678dd; }
+.background { background-color: #282c34;}
+
+p, pre {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: #5c6370;
+    font-size: large;
+}

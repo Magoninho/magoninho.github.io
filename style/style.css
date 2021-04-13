@@ -3,6 +3,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+/* .page-content span {
+    transition: color 0.5s;
+} */
+
+p span {
+    transition: color 0.5s;
+}
+.page-content p {
+    transition: color 0.5s;
+}
+
 h1,
 h2,
 h3,
@@ -15,17 +26,9 @@ h6 {
 }
 
 
-p, pre {
-    font-family: 'JetBrains Mono', monospace;
-    margin: 0;
-    color: #5c6370;
-    font-size: medium;
-}
-
 body {
     margin: 0;
     text-align: justify;
-    background-color: #282c34;
 }
 a {
     text-decoration: underline #56b6c2;
@@ -92,7 +95,7 @@ a:hover {
 }
 
 .menu li a:hover {
-  background-color: #555;
+  background-color: #4b5263;
   color: #c678dd;
 }
 #begin-comment {
@@ -146,7 +149,12 @@ a:hover {
         float: none;
     }
 
+    .showcase span {
+        font-size: small;
+    }
+
     .showcase p {
+        font-size: small;
         float: none;
     }
 

@@ -1,0 +1,29 @@
+.white { color: #000; }
+.function { color: blue; } /* function() */
+.built-in-function { color: #fd971f; }
+.string { color: darkgray; } /* "string" */
+.comment { color: darkgray; } /* // comment */
+.keyword { color: magenta; } /* for, if, return */
+.background { background-color: #fff; }
+
+p, pre {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: darkgray;
+    font-size: large;
+}
+
+.menu li a:hover {
+  background-color: darkgray;
+  color: blue;
+}
+
+#begin-comment {
+    color: darkgray;
+}
+#ending-comment {
+    color: darkgray;
+}
+.menu a {
+    color: darkgray;
+}
