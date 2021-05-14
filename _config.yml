@@ -214,6 +214,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - old/
 
 plugins:
   - jekyll-paginate
