@@ -31,7 +31,7 @@ body {
     text-align: justify;
 }
 a {
-    text-decoration: underline #56b6c2;
+    text-decoration: none;
     color: #5c6370;
 }
 
@@ -124,7 +124,7 @@ a:hover {
 
 @media (max-width: 1300px) {
     span {
-        font-size: large;
+        font-size: larger;
     }
 
     .page-content {
@@ -150,11 +150,11 @@ a:hover {
     }
 
     .showcase span {
-        font-size: small;
+        font-size: large;
     }
 
     .showcase p {
-        font-size: small;
+        font-size: large;
         float: none;
     }
 
