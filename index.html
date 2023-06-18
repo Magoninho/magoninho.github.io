@@ -53,8 +53,8 @@
             <p>
                 <span class="built-in-function">console</span><span class="white">.</span><span
                     class="function">log</span><span style="color: #abb2bf;">(</span><span class="string">"Hello,
-                    I'm 16 years old.
-                    I've been learning programming since 2017,
+                    I'm <span id="span-age"></span> years old.
+                    I've been learning programming since I was 11,
                     and
                     I've made a lot of projects over
                     the
@@ -77,6 +77,10 @@
 
         </div>
     </div>
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById("span-age").innerText = (parseInt(year)-2005);
+    </script>
 </body>
 
 </html>
