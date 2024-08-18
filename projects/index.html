@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../public/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+
+    .card {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #32363e;
+        padding: 10px;
+        border-radius: 25px;
+        transition: box-shadow 0.2s ease;
+        cursor: pointer;
+    }
+    
+    .card > .container {
+        max-width: calc(100% - 200px);
+        min-width: 316px;
+    }
+    .card:hover {
+        box-shadow: 3px 3px 10px black;
+    }
+
+    .card img {
+        border-radius: 25px;
+        max-width: 150px;
+    }
+
+    .repos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .repo {
+        transition: all 0.2s ease;
+    }
+
+    .repo:hover {
+        box-shadow: 3px 3px 10px black;
+    }
+
+    
+
+  </style>
+  <title>Projects</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+        <label for="nav-check">
+          <i class="fa-solid fa-bars" id="nav-bars"></i>
+        </label>
+        <input type="checkbox" id="nav-check">
+
+      <ul class="links">
+        <li><a class="string" href=".."><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a class="string" href="."><i class="fas fa-code-branch" aria-hidden="true"></i> Projects</a></li>
+        <li><a class="string" href="../about/"><i class="fas fa-user" aria-hidden="true"></i> About</a></li>
+        <li><a class="string" href="https://github.com/Magoninho" target="_blank"><i class="fab fa-github-alt" aria-hidden="true"></i> GitHub</a></li>
+        <li><a class="string" href="../contact/"><i class="fas fa-address-card" aria-hidden="true"></i> Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <h1 class="string"><b> /* Projects */</b></h1>
+    <br>
+    
+    <h2 class="comment">// Brands</h2><br>
+
+    <a href="https://www.youtube.com/@pythonista_333?sub_confirmation=1" target="_blank">
+        <div class="card">
+            <div class="image">
+                <img src="https://yt3.googleusercontent.com/AdafqaRd7I5p9dWNVBrAB7ute26lKYIZhQpuXjEuNxKQ7r906MZi2ARm_lf1nx2IXqC3d7YNsaM=s160-c-k-c0x00ffffff-no-rj" alt="Avatar" >
+            </div>
+        <div class="container">
+            <h1 class="class"><b>Pythonista_</b></h1> 
+            <p>My YouTube channel where I create content about programming.</p> 
+        </div>
+        </div>
+    </a>
+
+    <br>
+
+    <a href="https://lapadagames.itch.io/" target="_blank">
+        <div class="card">
+            <div class="image">
+                <img src="../public/lapada.png" alt="Avatar">
+            </div>
+        <div class="container">
+            <h1 class="class"><b>Lapada Games</b></h1> 
+            <p>A fictitious indie game studio I've created during my graduation. Open source games made with Godot Game Engine.</p>
+        </div>
+        </div>
+    </a>
+
+    <br>
+
+    <a href="https://www.youtube.com/@magoninhogamer" target="_blank">
+        <div class="card">
+            <div class="image">
+                <img src="https://yt3.googleusercontent.com/Ke3kXSQlnGvHKpwoHfY2qTeq4_7k064gnTgh90gj-BEQpuzsRs81-QKN9BiFSWl235tTSTNE6pQ=s160-c-k-c0x00ffffff-no-rj" alt="Avatar">
+            </div>
+        <div class="container">
+            <h1 class="class"><b>Magoninho</b></h1> 
+            <p>The YouTube channel I have since I was a kid. Not related to programming, but it shows my dedication.</p>
+        </div>
+        </div>
+    </a>
+
+    <br>
+
+    <h2 class="comment">// Some cool GitHub Repositories</h2>
+
+    <br>
+
+    <div class="repos">
+        <a href="https://github.com/Magoninho/Pong-Java" target="_blank"><img class="repo" src="https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=Pong-Java&theme=one_dark_pro"></a>
+        <a href="https://github.com/Magoninho/99-guess" target="_blank"><img class="repo" src="https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=99-guess&theme=one_dark_pro"></a>
+        <a href="https://github.com/Magoninho/TetrisFaculdade" target="_blank"><img class="repo" src="https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=TetrisFaculdade&theme=one_dark_pro"></a>
+        <a href="https://github.com/Magoninho/PolkaDotGameCpp" target="_blank"><img class="repo" src="https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=PolkaDotGameCpp&theme=one_dark_pro"></a>
+    </div>
+
+    <!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=raycasting-js)](https://github.com/Magoninho/raycasting-js) -->
+
+  </main>
+
+  <script>
+
+    let repositories = document.querySelector(".repos");
+
+    function getApiGithub() {
+        fetch('https://pinned.berrysauce.me/get/Magoninho')
+            .then(async res => {
+                if (!res.ok) {
+                    throw new Error(res.status);
+                }
+
+                let data = await res.json();
+
+                data.map(item => {
+                    let project = document.createElement('div');
+
+                    project.innerHTML = `
+                    <a href="https://github.com/Magoninho/${item.name}" target="_blank"><img class="repo" src="https://github-readme-stats.vercel.app/api/pin/?username=Magoninho&repo=${item.name}&theme=one_dark_pro"></a>
+                    `;
+
+                    repositories.appendChild(project);
+                })
+            })
+    }
+
+    getApiGithub();
+
+  </script>
+
+</body>
+
+</html>

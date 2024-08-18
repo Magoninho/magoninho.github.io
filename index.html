@@ -1,86 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="style/style.css">
-    <link class="theme" rel="stylesheet" href="style/onedark.css">
-    <title>Magoninho</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Felipe - Magoninho</title>
+
+  <style>
+    .bg-body {
+      --width: 100%;
+      width: var(--width);
+      height: calc(100vh - 110px);
+      background-image: url('languages.svg');
+      background-size: 500px;
+      background-position: right 50px;
+      /* animation: wave 60s linear infinite; */
+    }
+
+    @keyframes wave {
+      0% {
+        /* transform: translate(0%, 0%); */
+        background-position: 0% 0%;
+      }
+
+      100% {
+        /* transform: translate(100%, 0%); */
+        background-position: 100% 0%;
+      }
+    }
+  </style>
 </head>
 
-<body class="background">
-    <script src="https://kit.fontawesome.com/e9ca3d00ab.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e9ca3d00ab.js" crossorigin="anonymous"></script>
-    <script src="scripts/theme.js"></script>
-    <script>
-        console.log("Hello, I'm 15 years old. I've learned programming since 2017, and I've made a lot of projects over the last years.");
-    </script>
-    <div class="wrapper">
-        <div class="menu">
-            <header>
-                <h2 id="menu-header"><span class="white">.<span class="function">menu</span>();</span></h2>
-                <p id="begin-comment">/*</p><br>
-                <nav>
-                    <ul>
-                        <li><a href="./"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="projects.html"><i class="fas fa-code-branch"></i> Projects</a></li>
-                        <li><a href="https://github.com/Magoninho"><i class="fab fa-github-alt"></i> GitHub</a></li>
-                        <li><a href="YouTube.html"><i class="fab fa-youtube"></i> YouTube</a></li>
-                        <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-                        <li><a href="#"><i class="fas fa-address-card"></i> Contact</a></li>
-                        <li><a style="cursor: pointer;" onclick="setTheme();"><i class="fas fa-palette"></i> Change <span class="white">t</span><span
-                                    class="function">h</span><span class="comment">e</span><span
-                                    class="keyword">m</span><span class="built-in-function">e</span></a></li>
-                    </ul>
-                </nav>
-                <p id="ending-comment">*/</p>
-            </header>
-        </div>
+<body>
+  <header>
+    <div class="navbar">
+      <label for="nav-check">
+        <i class="fa-solid fa-bars" id="nav-bars"></i>
+      </label>
+      <input type="checkbox" id="nav-check">
+
+      <ul class="links">
+        <li><a class="string" href="."><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a class="string" href="projects/"><i class="fas fa-code-branch" aria-hidden="true"></i> Projects</a></li>
+        <li><a class="string" href="about/"><i class="fas fa-user" aria-hidden="true"></i> About</a></li>
+        <li><a class="string" href="https://github.com/Magoninho" target="_blank"><i class="fab fa-github-alt"
+              aria-hidden="true"></i> GitHub</a></li>
+        <li><a class="string" href="contact/"><i class="fas fa-address-card" aria-hidden="true"></i> Contact</a></li>
+      </ul>
     </div>
-    <div class="page-content">
-        <div style="text-align: center;">
-            <br><img class="rounded-image" src="https://avatars.githubusercontent.com/u/26368916?v=4"
-                width="150"><br><br>
+  </header>
 
-        </div>
-        <h1 class="comment">// My name is Felipe //</h1>
-        <h1 class="comment">// And I like to code :D //</h1>
+  <div class="bg-body">
+    <main>
 
+      <div style="text-align: center;">
+        <img id="profile-pic" width="200px" src="https://avatars.githubusercontent.com/u/26368916?v=4"
+          alt="My profile picture">
+        <p>I'm João Felipe. A programming enthusiast.</p>
+      </div>
 
-        <div id="description">
-            <p>
-                <span class="built-in-function">console</span><span class="white">.</span><span
-                    class="function">log</span><span style="color: #abb2bf;">(</span><span class="string">"Hello,
-                    I'm <span id="span-age"></span> years old.
-                    I've been learning programming since I was 11,
-                    and
-                    I've made a lot of projects over
-                    the
-                    last years."<span style="color: #abb2bf;">);</span>
-            </p><br>
-            <br><br><br>
-
-            <div class="biography">
-                <h2 id="biography-title"><span class="white">.<span class="function">biography</span>();</span></h2>
-                <p style="font-size: larger;" class="string">/*</p>
-                <p style="font-size: larger;" class="string">&nbsp;&nbsp;&nbsp;&nbsp;My name is Felipe, also know
-                    as Magoninho. I live in Fortaleza, Brazil.</p>
-                <p style="font-size: larger;" class="string">&nbsp;&nbsp;&nbsp;&nbsp;Through these years I have got a
-                    lot of new skills and made a lot of small projects.</p>
-                <p style="font-size: larger;" class="string">&nbsp;&nbsp;&nbsp;&nbsp;My dream is to become a software
-                    engineer.</p>
-                <p style="font-size: larger;" class="string">*/</p>
-            </div><br><br><br>
-
-
-        </div>
-    </div>
-    <script>
-        let year = new Date().getFullYear();
-        document.getElementById("span-age").innerText = (parseInt(year)-2005);
-    </script>
+    </main>
+  </div>
 </body>
 
 </html>

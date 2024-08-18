@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.white {
+	color: #abb2bf;
+}
+
+.function {
+	color: #61afef;
+}
+
+.built-in-function {
+	color: #e06c75;
+}
+
+.string {
+	color: #98c379;
+}
+
+.comment {
+	color: #5c6370;
+}
+
+.keyword {
+	color: #c678dd;
+}
+
+.class {
+	color: #E5C07B
+}
+
+.background {
+	background-color: #282c34;
+}
+
+p,
+pre,
+li {
+	
+	margin-top: 16px;
+	margin-bottom: 16px;
+	/* margin: 0; */
+	color: #b0b7c5;
+	font-size: large;
+}
+
+body {
+	background-color: #282c34;
+	font-family: 'JetBrains Mono', 'Consolas', monospace;
+}
+
+main {
+	/* margin-top: 50px; */
+	max-width: 60%;
+	margin: 50px auto;
+	line-height: 2rem;
+	padding: 10px;	
+}
+
+#profile-pic {
+	border-radius: 50%;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c678dd;
+}
+
+header {
+	position: relative;
+	padding: 0 2rem;
+}
+
+.navbar {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .links {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.navbar .toggle_btn {
+	color: white;
+	font-size: larger;
+	cursor: pointer;
+	display: none;
+}
+
+.navbar input {
+	display: none;
+}
+
+.navbar label {
+	cursor: pointer;
+	display: none;
+	color: white;
+}
+
+#nav-bars {
+	font-size: x-large;
+}
+
+
+/* Reponsive design */
+
+@media (max-width: 992px) {
+	main {
+		max-width: 100%;
+	}
+	.navbar .links {
+		position: absolute;
+		display: block;
+		opacity: 0;
+		padding: 10px;
+		padding-left: 60px;
+		transition: all 0.5s ease;
+		width: 100%;
+		overflow-y: hidden;
+		line-height: 2.5rem;
+		top: 50px;
+		left: -150px;
+		
+	}
+
+	.navbar label {
+		display: block;
+	}
+
+	#nav-check:checked ~ .links {
+		left: 0px;
+		opacity: 1;
+		background-color: #282c34;
+	}
+}
