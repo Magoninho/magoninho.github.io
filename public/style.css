@@ -78,6 +78,23 @@ a:hover {
 	color: #c678dd;
 }
 
+button {
+	padding: 12px 24px;
+	color: #61afef;
+	border-radius: 24px;
+	border: 1px solid #61afef;
+	background-color: transparent;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	font-family: 'JetBrains Mono', 'Consolas', monospace;
+	font-size: 12pt;
+}
+
+button:hover {
+	background-color: #61afef;
+	color: white;
+}
+
 header {
 	position: relative;
 	padding: 0 2rem;

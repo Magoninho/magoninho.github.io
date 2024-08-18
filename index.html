@@ -13,12 +13,14 @@
 
   <style>
     .bg-body {
-      --width: 100%;
-      width: var(--width);
-      height: calc(100vh - 110px);
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      height: 100vh;
       background-image: url('languages.svg');
       background-size: 500px;
-      background-position: right 50px;
+      z-index: -1;
+      /* background-position: right 50px; */
       /* animation: wave 60s linear infinite; */
     }
 
@@ -54,7 +56,7 @@
       </ul>
     </div>
   </header>
-
+  
   <div class="bg-body">
     <main>
 
@@ -62,10 +64,12 @@
         <img id="profile-pic" width="200px" src="https://avatars.githubusercontent.com/u/26368916?v=4"
           alt="My profile picture">
         <p>I'm João Felipe. A programming enthusiast.</p>
+
+        <a href="/public/Joao-Felipe-Ribeiro.pdf" target="_blank"><button><i class="fa-solid fa-file-arrow-down"></i> Download CV</button></a>
       </div>
 
     </main>
-  </div>
-</body>
+    </div>
+    </body>
 
 </html>
