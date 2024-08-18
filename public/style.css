@@ -139,7 +139,7 @@ header {
 		line-height: 2.5rem;
 		top: 50px;
 		left: -150px;
-		
+		visibility: hidden;
 	}
 
 	.navbar label {
@@ -149,6 +149,7 @@ header {
 	#nav-check:checked ~ .links {
 		left: 0px;
 		opacity: 1;
+		visibility: visible;
 		background-color: #282c34;
 	}
 }
