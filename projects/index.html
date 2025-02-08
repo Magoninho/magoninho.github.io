@@ -78,12 +78,12 @@
     <h1 class="string"><b> /* Projects */</b></h1>
     <br>
     
-    <h2 class="comment">// Brands</h2><br>
+    <h2 class="comment">// Content creation</h2><br>
 
     <a href="https://www.youtube.com/@pythonista_333?sub_confirmation=1" target="_blank">
         <div class="card">
             <div class="image">
-                <img src="https://yt3.googleusercontent.com/AdafqaRd7I5p9dWNVBrAB7ute26lKYIZhQpuXjEuNxKQ7r906MZi2ARm_lf1nx2IXqC3d7YNsaM=s160-c-k-c0x00ffffff-no-rj" alt="Avatar" >
+                <img src="../public/pythonista.jpg" alt="Avatar" >
             </div>
         <div class="container">
             <h1 class="class"><b>Pythonista_</b></h1> 
@@ -111,7 +111,7 @@
     <a href="https://www.youtube.com/@magoninhogamer" target="_blank">
         <div class="card">
             <div class="image">
-                <img src="https://yt3.googleusercontent.com/Ke3kXSQlnGvHKpwoHfY2qTeq4_7k064gnTgh90gj-BEQpuzsRs81-QKN9BiFSWl235tTSTNE6pQ=s160-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                <img src="../public/magoninho.jpg" alt="Avatar">
             </div>
         <div class="container">
             <h1 class="class"><b>Magoninho</b></h1> 
@@ -122,7 +122,7 @@
 
     <br>
 
-    <h2 class="comment">// Some cool GitHub Repositories</h2>
+    <h2 class="comment">// GitHub Repositories</h2>
 
     <br>
 
@@ -142,7 +142,7 @@
     let repositories = document.querySelector(".repos");
 
     function getApiGithub() {
-        fetch('https://pinned.berrysauce.me/get/Magoninho')
+        fetch('https://corsproxy.io/?url=https://pinned.berrysauce.me/get/Magoninho')
             .then(async res => {
                 if (!res.ok) {
                     throw new Error(res.status);
