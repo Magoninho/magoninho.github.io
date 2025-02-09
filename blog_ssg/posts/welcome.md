@@ -3,6 +3,7 @@ title: Welcome
 date: 2025-02-09
 author: João Felipe
 tags:
+    - 2025
     - other
 ---
 

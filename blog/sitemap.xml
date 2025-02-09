@@ -2,19 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://magoninho.github.io/blog/</loc>
-    <lastmod>2025-02-09T21:32:36.717Z</lastmod>
+    <lastmod>2025-02-09T21:35:07.419Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/</loc>
-    <lastmod>2025-02-09T21:32:36.716Z</lastmod>
+    <lastmod>2025-02-09T21:35:07.418Z</lastmod>
+  </url>
+  <url>
+    <loc>https://magoninho.github.io/blog/archive/2025/</loc>
+    <lastmod>2025-02-09T21:35:07.417Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/other/</loc>
-    <lastmod>2025-02-09T21:32:36.715Z</lastmod>
+    <lastmod>2025-02-09T21:35:07.417Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/author/joao-felipe/</loc>
-    <lastmod>2025-02-09T21:32:36.715Z</lastmod>
+    <lastmod>2025-02-09T21:35:07.417Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/posts/welcome/</loc>
