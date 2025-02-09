@@ -2,9 +2,7 @@ import lume from "lume/mod.ts";
 import blog from "blog/mod.ts";
 import highlight from "lume/plugins/code_highlight.ts";
 
-const site = lume({
-  location: new URL("https://magoninho.github.io/blog/"),
-});
+const site = lume();
 
 site.use(blog());
 site.use(highlight({
