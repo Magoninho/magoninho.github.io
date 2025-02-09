@@ -3,7 +3,7 @@ import blog from "blog/mod.ts";
 import highlight from "lume/plugins/code_highlight.ts";
 
 const site = lume({
-  location: new URL("https://magoninho.github.io"),
+  location: new URL("https://magoninho.github.io/blog"),
 });
 
 site.use(blog());
