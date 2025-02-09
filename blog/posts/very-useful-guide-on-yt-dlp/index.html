@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A very useful guide on how to use yt-dlp - jfribeiro.dev</title>
+
+    <meta name="supported-color-schemes" content="light">
+    <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
+    
+    <link rel="stylesheet" href="/blog/styles.css">
+    <link rel="alternate" href="/blog/feed.xml" type="application/atom+xml" title="jfribeiro.dev">
+    <link rel="alternate" href="/blog/feed.json" type="application/json" title="jfribeiro.dev">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon.png">
+    <link rel="canonical" href="https://magoninho.github.io/blog/posts/very-useful-guide-on-yt-dlp/">
+    <script src="/blog/js/main.js" type="module"></script>
+    
+  <meta property="og:type" content="website">
+<meta property="og:site_name" content="jfribeiro.dev">
+<meta property="og:locale" content="en">
+<meta property="og:title" content="A very useful guide on how to use yt-dlp">
+<meta property="og:description" content="Professional blog by João Felipe Ribeiro">
+<meta property="og:url" content="https://magoninho.github.io/blog/posts/very-useful-guide-on-yt-dlp/">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Professional blog by João Felipe Ribeiro">
+</head>
+  <body>
+    <nav class="navbar">
+      <a href="/blog/" class="navbar-home">
+          <strong>jfribeiro.dev</strong>
+      </a>
+
+      <ul class="navbar-links">        <li>
+          <a href="/blog/archive/">
+            Archive
+          </a>
+        </li>
+      <li>
+      </li>
+      </ul>
+    </nav>
+
+    <main class="body-post">
+      <article class="post" data-pagefind-body="" data-title="A very useful guide on how to use yt-dlp" data-pagefind-index-attrs="data-title">
+  <header class="post-header">
+    <h1 class="post-title">A very useful guide on how to use yt-dlp</h1>
+
+    <div class="post-details">
+      <p>by João Felipe Ribeiro</p>
+
+  <p>
+    <time datetime="2025-02-08 21:00:00">
+      February 8th, 2025
+    </time>
+  </p>
+
+  <p>2 min read</p>
+
+  <div class="post-tags">
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/2025/">2025</a>
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/tools/">tools</a>
+  </div>
+</div>
+
+  </header>
+
+  <nav class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li>
+        <a href="#installation">Installation</a>
+
+      </li>
+      <li>
+        <a href="#download-in-mp3">Download in MP3</a>
+
+        <ul>
+          <li>
+            <a href="#downloading-playlist-with-numbered-files">Downloading playlist with numbered files</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#download-mp4-video">Download MP4 video</a>
+
+        <ul>
+          <li>
+            <a href="#compatibility-with-video-editors-(like-davinci-resolve)">Compatibility with video editors (like Davinci Resolve)</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#conclusion">Conclusion</a>
+
+      </li>
+    </ol>
+  </nav>
+
+  <div class="post-body body">
+    <p>I've been using <code>yt-dlp</code> for a long time and it has been very useful for me in the daily basis. When I want to download a video or a song from youtube, it really comes in handy to have a tool that is not bloated with ads and fake download buttons like those youtube downloader clients we see over the internet.</p>
+<!-- more -->
+<p><code>yt-dlp</code> is a powerful tool packed with features, but that’s also what makes it <strong>challenging to learn</strong>. It offers a wide range of functionalities, many of which go unused by the average user. Most people simply want to download videos as MP4 or songs as MP3, without having to navigate its extensive options.</p>
+<p>My goal is to summarize some commands that I think are the most useful for the daily basis.</p>
+<h2 id="installation" tabindex="-1"><a href="#installation" class="header-anchor">Installation</a></h2>
+<p>You can <a href="https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation">visit the official github repository</a> to find the steps on how to install it.</p>
+<div class="markdown-alert markdown-alert-important">
+<p class="markdown-alert-title">Important</p>
+<p>Make sure to install <code>ffmpeg</code> before running the commands provided!</p>
+</div>
+<p>To install ffmpeg on <strong>Windows</strong> run the following command on the Windows Terminal:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash hljs">winget install -e --<span class="hljs-built_in">id</span> Gyan.FFmpeg
+</code></pre>
+<p>To install ffmpeg on <strong>Ubuntu</strong> or derivatives run the following command on terminal:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash hljs"><span class="hljs-built_in">sudo</span> apt install ffmpeg
+</code></pre>
+<h2 id="download-in-mp3" tabindex="-1"><a href="#download-in-mp3" class="header-anchor">Download in MP3</a></h2>
+<p>If you want to download a video or a playlist from YouTube and automatically convert it to mp3, run the following command:</p>
+<pre class="language-none" tabindex="0"><code class="language-none">yt-dlp &lt;link for video or playlist&gt; -x --audio-format mp3
+</code></pre>
+<h3 id="downloading-playlist-with-numbered-files" tabindex="-1"><a href="#downloading-playlist-with-numbered-files" class="header-anchor">Downloading playlist with numbered files</a></h3>
+<p>If you want to download a playlist with numbered files like...</p>
+<pre class="language-none" tabindex="0"><code class="language-none">01 - File 1.mp3
+02 - File 2.mp3
+03 - File 3.mp3
+...
+</code></pre>
+<p>...you can run the following command:</p>
+<pre class="language-none" tabindex="0"><code class="language-none">yt-dlp -o "%(playlist_index)s - %(title)s.%(ext)s" &lt;link&gt; -x --audio-format mp3
+</code></pre>
+<h2 id="download-mp4-video" tabindex="-1"><a href="#download-mp4-video" class="header-anchor">Download MP4 video</a></h2>
+<p>If you want to download a video from YouTube in the MP4 format, run the following command:</p>
+<pre class="language-none" tabindex="0"><code class="language-none">yt-dlp &lt;link&gt; -S ext
+</code></pre>
+<h3 id="compatibility-with-video-editors-(like-davinci-resolve)" tabindex="-1"><a href="#compatibility-with-video-editors-(like-davinci-resolve)" class="header-anchor">Compatibility with video editors (like Davinci Resolve)</a></h3>
+<p>If you wish to download videos using <code>yt-dlp</code> and use them in Davinci Resolve, you'll need to recode the video to the MOV format. Thankfully, <code>yt-dlp</code> provides a feature to do so. Just run the following command:</p>
+<pre class="language-none" tabindex="0"><code class="language-none">yt-dlp &lt;link&gt; --recode-video mov
+</code></pre>
+<h2 id="conclusion" tabindex="-1"><a href="#conclusion" class="header-anchor">Conclusion</a></h2>
+<p>In my opinion, these were the most useful commands I could provide</p>
+
+  </div>
+
+
+</article>
+
+<nav class="page-pagination pagination">
+  <ul>    <li class="pagination-next">
+      <a href="/blog/posts/welcome/" rel="next">
+        <span>Newer post →</span>
+        <strong>Welcome</strong>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<script src="https://giscus.app/client.js" data-repo="Magoninho/magoninho.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyNjQ1MzQxNDk=" data-category="General" data-category-id="DIC_kwDOD8R4hc4Cmzg2" data-mapping="og:title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="pt" crossorigin="anonymous" async="">
+</script>
+    </main>
+
+    <!-- Current page: /posts/very-useful-guide-on-yt-dlp/ -->
+  
+</body></html>
