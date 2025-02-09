@@ -6,7 +6,7 @@ on:
 
 defaults:
   run:
-    working-directory: blog
+    working-directory: ./blog
 
 permissions:
   contents: read
