@@ -5,15 +5,18 @@
     <link>https://magoninho.github.io/blog</link>
     <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Professional blog by João Felipe Ribeiro</description>
-    <lastBuildDate>Sun, 09 Feb 2025 18:43:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 19:11:39 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
       <title>Welcome</title>
       <link>https://magoninho.github.io/blog/posts/bem-vindos/</link>
       <guid isPermaLink="false">https://magoninho.github.io/blog/posts/bem-vindos/</guid>
-      <content:encoded><![CDATA[<p>I have finally created a blog for myself.</p>
-]]></content:encoded>
+      <content:encoded>
+        <![CDATA[<p>I have finally created a blog for myself!</p>
+<p>I plan to talk about a lot of things in the future. I just have no idea what to talk about lol.</p>
+]]>
+      </content:encoded>
       <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
     </item>
   </channel>

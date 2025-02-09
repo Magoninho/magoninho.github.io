@@ -4,6 +4,7 @@ import highlight from "lume/plugins/code_highlight.ts";
 
 const site = lume({
   location: new URL("https://magoninho.github.io/blog"),
+  dest: "../blog"
 });
 
 site.use(blog());
