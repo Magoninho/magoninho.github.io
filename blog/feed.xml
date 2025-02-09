@@ -2,16 +2,16 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
   <channel>
     <title>jfribeiro.dev</title>
-    <link>https://magoninho.github.io/</link>
-    <atom:link href="https://magoninho.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://magoninho.github.io/blog</link>
+    <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Professional blog by João Felipe Ribeiro</description>
-    <lastBuildDate>Sun, 09 Feb 2025 18:33:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 18:43:20 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
       <title>Welcome</title>
-      <link>https://magoninho.github.io/posts/bem-vindos/</link>
-      <guid isPermaLink="false">https://magoninho.github.io/posts/bem-vindos/</guid>
+      <link>https://magoninho.github.io/blog/posts/bem-vindos/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/bem-vindos/</guid>
       <content:encoded><![CDATA[<p>I have finally created a blog for myself.</p>
 ]]></content:encoded>
       <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
