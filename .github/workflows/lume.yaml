@@ -22,7 +22,7 @@ jobs:
 
       - name: Build site
         working-directory: ./blog
-        run: deno task build
+        run: deno task lume --location=https://magoninho.github.io/blog/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
