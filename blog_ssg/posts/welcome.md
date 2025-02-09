@@ -1,7 +1,7 @@
 ---
 title: Welcome
 date: 2025-02-09
-author: João Felipe
+author: João Felipe Ribeiro
 tags:
     - 2025
     - other
