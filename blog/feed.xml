@@ -5,16 +5,18 @@
     <link>https://magoninho.github.io/blog</link>
     <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Professional blog by João Felipe Ribeiro</description>
-    <lastBuildDate>Sun, 09 Feb 2025 19:11:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 21:23:11 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
       <title>Welcome</title>
-      <link>https://magoninho.github.io/blog/posts/bem-vindos/</link>
-      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/bem-vindos/</guid>
+      <link>https://magoninho.github.io/blog/posts/welcome/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/welcome/</guid>
       <content:encoded>
-        <![CDATA[<p>I have finally created a blog for myself!</p>
-<p>I plan to talk about a lot of things in the future. I just have no idea what to talk about lol.</p>
+        <![CDATA[<p>I have finally created a blog for myself! I was really looking forward to do so. One of the reasons being that I really wanted to put my english writing skills to the next level. As well as because I recently got a new keyboard, and a mechanical one, and I am really enjoying to type on this thing (I pretend to make a blog post about how typing is very important for programmers). And another good reason is that when I was 10 years old, it was 2015, and everybody had a blog. I really wanted a blog too, so it was like a little dream of mine. This was also another reason for me to start learning to code when I was younger.</p>
+<!--more-->
+<p>I plan to write about a lot of things in the future. I just have no idea what subject to talk about first lol. I am thinking about maybe writing some simple programming tutorials just like those articles I read on Medium or dev.to. As well as some walkthroughs on how I achieved something like a big project or some job opportunity.</p>
+<p>Most of the content will probably be more technical, since I do not have that much experience to talk about more mature content like advices on getting a job (since I am unemployed lol).</p>
 ]]>
       </content:encoded>
       <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
