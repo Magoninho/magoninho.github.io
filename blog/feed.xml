@@ -5,7 +5,7 @@
     <link>https://magoninho.github.io/blog</link>
     <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general</description>
-    <lastBuildDate>Sun, 16 Mar 2025 01:29:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 01:36:28 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
@@ -37,7 +37,7 @@
 <p>Alright, it was time to start learning web development again so I could find a job. I had no choice but to switch to backend development, because frontend development is just a whole mess. As a backend developer I could choose any programming language I wanted. I mean, you can build an API with anything you want.</p>
 <p>But the problem was that I wasn't having <em>the fun</em> anymore. I wasn't excited like I was before. I started to notice that web development is not actual programming. It is just a lot of complexity that you have to deal with. But it's not a complexity that is enjoyable to explore. It's just boring asf.</p>
 <p>For me, web development is about trying to make a bunch of javascript frameworks work together and dealing with the conflicts they generate, and that's all about it. You just need to understand how things work once, and then you build a lot of projects just to get more efficient at it.</p>
-<p><img src="https://img.devrant.com/devrant/rant/r_1472311_YE9ME.jpg" alt="meme"></p>
+<img src="https://img.devrant.com/devrant/rant/r_1472311_YE9ME.jpg" class="cover">
 <p>I mean, these tasks are so repetitive, that AI can successfully replace a junior dev at this point. It's all about doing the same task. The only difference is the stack the company uses.</p>
 <p>Basically, you can't be a good programmer in the web development world. Because there is all this complexity you have to deal with, but it's all fake complexity. Fundamentally, how the web works is simple, but people made it harder over the years. So, all the challenges that people fight over in web development are not going to contribute to your computing knowledge.</p>
 <p>Someday, the web will collapse. It might take a few years, but at some point, it will happen.</p>

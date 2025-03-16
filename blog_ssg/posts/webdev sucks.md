@@ -2,6 +2,8 @@
 title: Why I think Web Development is not real programming
 date: 2025-03-15
 author: João Felipe Ribeiro
+metas:
+    image: "$ img.cover attr(src)"
 tags:
     - 2025
     - programming
@@ -52,7 +54,7 @@ But the problem was that I wasn't having *the fun* anymore. I wasn't excited lik
 
 For me, web development is about trying to make a bunch of javascript frameworks work together and dealing with the conflicts they generate, and that's all about it. You just need to understand how things work once, and then you build a lot of projects just to get more efficient at it.
 
-![meme](https://img.devrant.com/devrant/rant/r_1472311_YE9ME.jpg)
+<img src="https://img.devrant.com/devrant/rant/r_1472311_YE9ME.jpg" class="cover">
 
 I mean, these tasks are so repetitive, that AI can successfully replace a junior dev at this point. It's all about doing the same task. The only difference is the stack the company uses.
 
