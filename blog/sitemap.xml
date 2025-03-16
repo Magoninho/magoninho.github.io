@@ -2,31 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://magoninho.github.io/blog/</loc>
-    <lastmod>2025-02-09T22:19:26.155Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.507Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/</loc>
-    <lastmod>2025-02-09T22:19:26.155Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.506Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/2025/</loc>
-    <lastmod>2025-02-09T22:19:26.154Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/other/</loc>
-    <lastmod>2025-02-09T22:19:26.154Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://magoninho.github.io/blog/archive/programming/</loc>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://magoninho.github.io/blog/archive/rant/</loc>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/archive/tools/</loc>
-    <lastmod>2025-02-09T22:19:26.154Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://magoninho.github.io/blog/archive/web-development/</loc>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/author/joao-felipe-ribeiro/</loc>
-    <lastmod>2025-02-09T22:19:26.154Z</lastmod>
+    <lastmod>2025-03-16T01:29:59.505Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/posts/very-useful-guide-on-yt-dlp/</loc>
     <lastmod>2025-02-09T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://magoninho.github.io/blog/posts/webdev-sucks/</loc>
+    <lastmod>2025-03-15T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://magoninho.github.io/blog/posts/welcome/</loc>
