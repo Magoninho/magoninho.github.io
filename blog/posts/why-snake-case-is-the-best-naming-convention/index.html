@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Your Keyboard for Effortless snake_case: Windows and Linux Guide - jfribeiro.dev</title>
+
+    <meta name="supported-color-schemes" content="light">
+    <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
+    
+    <link rel="stylesheet" href="/blog/styles.css">
+    <link rel="alternate" href="/blog/feed.xml" type="application/atom+xml" title="jfribeiro.dev">
+    <link rel="alternate" href="/blog/feed.json" type="application/json" title="jfribeiro.dev">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon.png">
+    <link rel="canonical" href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/">
+    <script src="/blog/js/main.js" type="module"></script>
+    
+  <meta property="og:type" content="website">
+<meta property="og:site_name" content="jfribeiro.dev">
+<meta property="og:locale" content="en">
+<meta property="og:title" content="Hack Your Keyboard for Effortless snake_case: Windows and Linux…">
+<meta property="og:description" content="Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general">
+<meta property="og:url" content="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general">
+</head>
+  <body>
+    <nav class="navbar">
+      <a href="/blog/" class="navbar-home">
+          <strong>jfribeiro.dev</strong>
+      </a>
+
+      <ul class="navbar-links">        <li>
+          <a href="/blog/archive/">
+            Archive
+          </a>
+        </li>
+      <li>
+      </li>
+      </ul>
+    </nav>
+
+    <main class="body-post">
+      <article class="post" data-pagefind-body="" data-title="Hack Your Keyboard for Effortless snake_case: Windows and Linux Guide" data-pagefind-index-attrs="data-title">
+  <header class="post-header">
+    <h1 class="post-title">Hack Your Keyboard for Effortless snake_case: Windows and Linux Guide</h1>
+
+    <div class="post-details">
+      <p>by João Felipe Ribeiro</p>
+
+  <p>
+    <time datetime="2025-04-07 21:00:00">
+      April 7th, 2025
+    </time>
+  </p>
+
+  <p>3 min read</p>
+
+  <div class="post-tags">
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/2025/">2025</a>
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/programming/">programming</a>
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/tooling/">tooling</a>
+
+        <a data-pagefind-filter="filter" class="badge" href="/blog/archive/keyboard/">keyboard</a>
+  </div>
+</div>
+
+  </header>
+
+  <nav class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li>
+        <a href="#how-to-remap-on-linux">How to remap on Linux</a>
+
+        <ul>
+          <li>
+            <a href="#x11-systems">X11 systems</a>
+          </li>
+          <li>
+            <a href="#wayland-systems">Wayland systems</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#how-to-remap-keys-on-windows">How to Remap Keys on Windows</a>
+
+      </li>
+      <li>
+        <a href="#conclusion">Conclusion</a>
+
+      </li>
+    </ol>
+  </nav>
+
+  <div class="post-body body">
+    <p>For me, snake_case is the best naming convention when writing code. It's easy to read and easy to type. And now, it became <em>even more easier</em> to type after I discovered that I could remap shift+space to give me the underscore character more precisely and comfortably.</p>
+<p>However, every operating system have their particularities and I've made my own research to find out how to remap these keys on Windows and Linux. (I don't know how to achieve this on macos since I don't own an apple computer).</p>
+<!-- more -->
+<h2 id="how-to-remap-on-linux" tabindex="-1"><a href="#how-to-remap-on-linux" class="header-anchor">How to remap on Linux</a></h2>
+<p>Depending on the desktop environment that you're using, it may offer you a built in functionality that allows you to remap keys. But, in this article I'll try to show more universal alternatives that are not desktop environment specific.</p>
+<h3 id="x11-systems" tabindex="-1"><a href="#x11-systems" class="header-anchor">X11 systems</a></h3>
+<p>Steps using <strong>xmodmap</strong> (built-in):</p>
+<ol>
+<li>Find the keycode for Shift+Space: Open a terminal and run:</li>
+</ol>
+<pre class="language-none" tabindex="0"><code class="language-none">xev
+</code></pre>
+<p>Press Shift + Space, and note the keycode of the space key (usually it's 65, but confirm it).</p>
+<ol start="2">
+<li>Edit <code>.Xmodmap</code>: Create or edit the .Xmodmap file in your home directory:</li>
+</ol>
+<pre class="language-none" tabindex="0"><code class="language-none">nano ~/.Xmodmap
+</code></pre>
+<ol start="3">
+<li>Map it like this: If your space key is keycode 65:</li>
+</ol>
+<pre class="language-none" tabindex="0"><code class="language-none">keycode 65 = space underscore
+</code></pre>
+<p>This tells X11 to emit space normally, but underscore when Shift is held.</p>
+<ol start="4">
+<li>Load your new keymap:</li>
+</ol>
+<pre class="language-none" tabindex="0"><code class="language-none">xmodmap ~/.Xmodmap
+</code></pre>
+<ol start="5">
+<li>Make it persistent: Add that last line to your .xinitrc or autostart script.</li>
+</ol>
+<div class="markdown-alert markdown-alert-important">
+<p class="markdown-alert-title">Important</p>
+<p>This works on X11, not Wayland (used in newer GNOME/KDE setups). For Wayland, please read the next section.</p>
+</div>
+<h3 id="wayland-systems" tabindex="-1"><a href="#wayland-systems" class="header-anchor">Wayland systems</a></h3>
+<p>For wayland, there are different software alternatives you can use, but the one I found easier to use was <a href="https://github.com/rvaiya/keyd">keyd</a></p>
+<ol>
+<li>Follow the instructions on the <a href="https://github.com/rvaiya/keyd">keyd github repo</a> for instructions on how to install it on your operating system.</li>
+</ol>
+<p>But you can compile it from source by running these commands</p>
+<pre class="language-none" tabindex="0"><code class="language-none">git clone https://github.com/rvaiya/keyd
+cd keyd
+make &amp;&amp; sudo make install
+sudo systemctl enable --now keyd
+</code></pre>
+<ol start="2">
+<li>Create a file at <code>/etc/keyd/default.conf</code> if it doesn't exist already, and add the following content:</li>
+</ol>
+<pre class="language-none" tabindex="0"><code class="language-none">[ids]
+
+*
+
+[shift]
+space = _
+</code></pre>
+<p>This will remap the behavior of space when shift is being hold, outputting the underscore character we wanted. The <code>[ids]</code> section is required, if you want to explore more about this software, visit the repository for more information.</p>
+<h2 id="how-to-remap-keys-on-windows" tabindex="-1"><a href="#how-to-remap-keys-on-windows" class="header-anchor">How to Remap Keys on Windows</a></h2>
+<p>Remapping keys on Windows is surprisingly simple, thanks to <strong>AutoHotKey</strong> — a powerful and flexible tool that many Linux users wish they had.</p>
+<ol>
+<li>
+<p>Download and install AutoHotKey
+Get it from the <a href="https://www.autohotkey.com/">official website</a>.</p>
+</li>
+<li>
+<p>Create a new script
+To map <strong>Shift + Space</strong> to output an underscore (<code>_</code>), use the following script:</p>
+<pre class="language-ahk" tabindex="0"><code class="language-ahk hljs language-autohotkey"><span class="hljs-title">+Space::</span> {
+    Send <span class="hljs-string">"_"</span>
+}
+</code></pre>
+</li>
+<li>
+<p>Run the script at startup
+To make the script launch automatically every time you boot:</p>
+<ul>
+<li>Press <code>Win + R</code>, type <code>shell:startup</code>, and press Enter.</li>
+<li>Copy your script (or a shortcut to it) into the folder that opens.</li>
+</ul>
+</li>
+</ol>
+<h2 id="conclusion" tabindex="-1"><a href="#conclusion" class="header-anchor">Conclusion</a></h2>
+<p>After some training, you can get enough muscle memory to become more faster on typing underscores</p>
+<p>Well, snake_case is very awesome, but that doesn't matter that much, because the true value got from this research was the discover of these remapping softwares, and how they can be used to achieve even more different functions in your keyboard as you like.</p>
+
+  </div>
+
+
+</article>
+
+<nav class="page-pagination pagination">
+  <ul>    <li class="pagination-prev">
+      <a href="/blog/posts/webdev-sucks/" rel="prev">
+        <span>← Older post</span>
+        <strong>Why I think Web Development is not real programming</strong>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<script src="https://giscus.app/client.js" data-repo="Magoninho/magoninho.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyNjQ1MzQxNDk=" data-category="General" data-category-id="DIC_kwDOD8R4hc4Cmzg2" data-mapping="og:title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="pt" crossorigin="anonymous" async="">
+</script>
+    </main>
+
+    <!-- Current page: /posts/why-snake-case-is-the-best-naming-convention/ -->
+  
+</body></html>

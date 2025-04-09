@@ -5,9 +5,103 @@
     <link>https://magoninho.github.io/blog</link>
     <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general</description>
-    <lastBuildDate>Sun, 16 Mar 2025 01:36:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Apr 2025 00:14:44 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
+    <item>
+      <title>Hack Your Keyboard for Effortless snake_case: Windows and Linux Guide</title>
+      <link>https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/</guid>
+      <content:encoded>
+        <![CDATA[<p>For me, snake_case is the best naming convention when writing code. It's easy to read and easy to type. And now, it became <em>even more easier</em> to type after I discovered that I could remap shift+space to give me the underscore character more precisely and comfortably.</p>
+<p>However, every operating system have their particularities and I've made my own research to find out how to remap these keys on Windows and Linux. (I don't know how to achieve this on macos since I don't own an apple computer).</p>
+<!-- more -->
+<h2 id="how-to-remap-on-linux" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/#how-to-remap-on-linux" class="header-anchor">How to remap on Linux</a></h2>
+<p>Depending on the desktop environment that you're using, it may offer you a built in functionality that allows you to remap keys. But, in this article I'll try to show more universal alternatives that are not desktop environment specific.</p>
+<h3 id="x11-systems" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/#x11-systems" class="header-anchor">X11 systems</a></h3>
+<p>Steps using <strong>xmodmap</strong> (built-in):</p>
+<ol>
+<li>Find the keycode for Shift+Space: Open a terminal and run:</li>
+</ol>
+<pre><code>xev
+</code></pre>
+<p>Press Shift + Space, and note the keycode of the space key (usually it's 65, but confirm it).</p>
+<ol start="2">
+<li>Edit <code>.Xmodmap</code>: Create or edit the .Xmodmap file in your home directory:</li>
+</ol>
+<pre><code>nano ~/.Xmodmap
+</code></pre>
+<ol start="3">
+<li>Map it like this: If your space key is keycode 65:</li>
+</ol>
+<pre><code>keycode 65 = space underscore
+</code></pre>
+<p>This tells X11 to emit space normally, but underscore when Shift is held.</p>
+<ol start="4">
+<li>Load your new keymap:</li>
+</ol>
+<pre><code>xmodmap ~/.Xmodmap
+</code></pre>
+<ol start="5">
+<li>Make it persistent: Add that last line to your .xinitrc or autostart script.</li>
+</ol>
+<div class="markdown-alert markdown-alert-important">
+<p class="markdown-alert-title">Important</p>
+<p>This works on X11, not Wayland (used in newer GNOME/KDE setups). For Wayland, please read the next section.</p>
+</div>
+<h3 id="wayland-systems" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/#wayland-systems" class="header-anchor">Wayland systems</a></h3>
+<p>For wayland, there are different software alternatives you can use, but the one I found easier to use was <a href="https://github.com/rvaiya/keyd">keyd</a></p>
+<ol>
+<li>Follow the instructions on the <a href="https://github.com/rvaiya/keyd">keyd github repo</a> for instructions on how to install it on your operating system.</li>
+</ol>
+<p>But you can compile it from source by running these commands</p>
+<pre><code>git clone https://github.com/rvaiya/keyd
+cd keyd
+make &amp;&amp; sudo make install
+sudo systemctl enable --now keyd
+</code></pre>
+<ol start="2">
+<li>Create a file at <code>/etc/keyd/default.conf</code> if it doesn't exist already, and add the following content:</li>
+</ol>
+<pre><code>[ids]
+
+*
+
+[shift]
+space = _
+</code></pre>
+<p>This will remap the behavior of space when shift is being hold, outputting the underscore character we wanted. The <code>[ids]</code> section is required, if you want to explore more about this software, visit the repository for more information.</p>
+<h2 id="how-to-remap-keys-on-windows" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/#how-to-remap-keys-on-windows" class="header-anchor">How to Remap Keys on Windows</a></h2>
+<p>Remapping keys on Windows is surprisingly simple, thanks to <strong>AutoHotKey</strong> — a powerful and flexible tool that many Linux users wish they had.</p>
+<ol>
+<li>
+<p>Download and install AutoHotKey
+Get it from the <a href="https://www.autohotkey.com/">official website</a>.</p>
+</li>
+<li>
+<p>Create a new script
+To map <strong>Shift + Space</strong> to output an underscore (<code>_</code>), use the following script:</p>
+<pre><code class="language-ahk">+Space:: {
+    Send &quot;_&quot;
+}
+</code></pre>
+</li>
+<li>
+<p>Run the script at startup
+To make the script launch automatically every time you boot:</p>
+<ul>
+<li>Press <code>Win + R</code>, type <code>shell:startup</code>, and press Enter.</li>
+<li>Copy your script (or a shortcut to it) into the folder that opens.</li>
+</ul>
+</li>
+</ol>
+<h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/why-snake-case-is-the-best-naming-convention/#conclusion" class="header-anchor">Conclusion</a></h2>
+<p>After some training, you can get enough muscle memory to become more faster on typing underscores</p>
+<p>Well, snake_case is very awesome, but that doesn't matter that much, because the true value got from this research was the discover of these remapping softwares, and how they can be used to achieve even more different functions in your keyboard as you like.</p>
+]]>
+      </content:encoded>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Why I think Web Development is not real programming</title>
       <link>https://magoninho.github.io/blog/posts/webdev-sucks/</link>
@@ -47,6 +141,19 @@
 ]]>
       </content:encoded>
       <pubDate>Sat, 15 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>https://magoninho.github.io/blog/posts/welcome/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/welcome/</guid>
+      <content:encoded>
+        <![CDATA[<p>I have finally created a blog for myself! I was really looking forward to do so. One of the reasons being that I really wanted to put my english writing skills to the next level. As well as because I recently got a new keyboard, and a mechanical one, and I am really enjoying to type on this thing (I pretend to make a blog post about how typing is very important for programmers). And another good reason is that when I was 10 years old, it was 2015, and everybody had a blog. I really wanted a blog too, so it was like a little dream of mine. This was also another reason for me to start learning to code when I was younger.</p>
+<!--more-->
+<p>I plan to write about a lot of things in the future. I just have no idea what subject to talk about first lol. I am thinking about maybe writing some simple programming tutorials just like those articles I read on Medium or dev.to. As well as some walkthroughs on how I achieved something like a big project or some job opportunity.</p>
+<p>Most of the content will probably be more technical, since I do not have that much experience to talk about more mature content like advices on getting a job (since I am unemployed lol).</p>
+]]>
+      </content:encoded>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>A very useful guide on how to use yt-dlp</title>
@@ -93,19 +200,6 @@
 </code></pre>
 <h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/blog/posts/very-useful-guide-on-yt-dlp/#conclusion" class="header-anchor">Conclusion</a></h2>
 <p>In my opinion, these were the most useful commands I could provide</p>
-]]>
-      </content:encoded>
-      <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Welcome</title>
-      <link>https://magoninho.github.io/blog/posts/welcome/</link>
-      <guid isPermaLink="false">https://magoninho.github.io/blog/posts/welcome/</guid>
-      <content:encoded>
-        <![CDATA[<p>I have finally created a blog for myself! I was really looking forward to do so. One of the reasons being that I really wanted to put my english writing skills to the next level. As well as because I recently got a new keyboard, and a mechanical one, and I am really enjoying to type on this thing (I pretend to make a blog post about how typing is very important for programmers). And another good reason is that when I was 10 years old, it was 2015, and everybody had a blog. I really wanted a blog too, so it was like a little dream of mine. This was also another reason for me to start learning to code when I was younger.</p>
-<!--more-->
-<p>I plan to write about a lot of things in the future. I just have no idea what subject to talk about first lol. I am thinking about maybe writing some simple programming tutorials just like those articles I read on Medium or dev.to. As well as some walkthroughs on how I achieved something like a big project or some job opportunity.</p>
-<p>Most of the content will probably be more technical, since I do not have that much experience to talk about more mature content like advices on getting a job (since I am unemployed lol).</p>
 ]]>
       </content:encoded>
       <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
