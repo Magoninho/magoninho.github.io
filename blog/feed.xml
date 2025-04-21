@@ -5,7 +5,7 @@
     <link>https://magoninho.github.io/blog</link>
     <atom:link href="https://magoninho.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general</description>
-    <lastBuildDate>Mon, 21 Apr 2025 19:55:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 19:57:14 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
@@ -26,7 +26,7 @@
 <p>What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you.</p>
 <p>And the first threats of AI generated code have already begun to emerge.</p>
 <p>We're facing a new era of programmers who are losing the capacity of reasoning and solving problems logically. They believe that thinking is a waste of time, they use AI for everything they struggle to reason, and they call this &quot;productivity&quot;. When in reality, they are just becoming ignorant programmers.</p>
-<img src="https://magoninho.github.io/img/thumb.png">
+<img class="cover" src="https://magoninho.github.io/img/thumb.png">
 <sup>Picture of a vibe coder (AI generated)</sup>
 <p>This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.</p>
 <p>As Linus Torvalds once said:</p>
