@@ -3,7 +3,7 @@ title: "We need to change the way we use AI, or the future of software will be i
 date: 2025-04-21
 author: João Felipe Ribeiro
 metas:
-    image: "$ img.cover attr(src)"
+    image: "/img/thumb.png"
 tags:
     - 2025
     - programming
@@ -28,7 +28,7 @@ And the first threats of AI generated code have already begun to emerge.
 
 We're facing a new era of programmers who are losing the capacity of reasoning and solving problems logically. They believe that thinking is a waste of time, they use AI for everything they struggle to reason, and they call this "productivity". When in reality, they are just becoming ignorant programmers.
 
-<img class="cover" src="/img/thumb.png">
+<img src="/img/thumb.png" class="cover">
 <sup>Picture of a vibe coder (AI generated)</sup>
 
 This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.
