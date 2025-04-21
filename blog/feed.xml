@@ -2,31 +2,31 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
   <channel>
     <title>jfribeiro.dev</title>
-    <link>http://localhost:8000/</link>
-    <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://magoninho.github.io/</link>
+    <atom:link href="https://magoninho.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Blog about Programming, Tutorials, Guides, some off-topic subjects and tech in general</description>
-    <lastBuildDate>Mon, 21 Apr 2025 16:28:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 19:45:15 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.5.1</generator>
     <item>
       <title>My thoughts on AI and how it can affect beginners</title>
-      <link>http://localhost:8000/posts/my-thoughts-on-ai/</link>
-      <guid isPermaLink="false">http://localhost:8000/posts/my-thoughts-on-ai/</guid>
+      <link>https://magoninho.github.io/posts/my-thoughts-on-ai/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/posts/my-thoughts-on-ai/</guid>
       <content:encoded>
         <![CDATA[<!-- more -->
 <div class="markdown-alert markdown-alert-note">
 <p class="markdown-alert-title">Note</p>
 <p>Disclaimer: This post is going to be a script for a future video on my Youtube channel. That's why you will se me writing the word &quot;video&quot; sometimes.</p>
 </div>
-<h2 id="introduction" tabindex="-1"><a href="http://localhost:8000/posts/my-thoughts-on-ai/#introduction" class="header-anchor">Introduction</a></h2>
+<h2 id="introduction" tabindex="-1"><a href="https://magoninho.github.io/posts/my-thoughts-on-ai/#introduction" class="header-anchor">Introduction</a></h2>
 <p>Hi, I'm John from the Pythonista channel, and this is going to be a very different video than I am used to making.</p>
 <p>Since the beginning of this AI revolution, I have been very skeptical about it replacing developer jobs. But today, I see that this is not the problem yet, the main issue is how developers are using AI in their daily basis and how some companies are supporting bad practices (like google's recent firebase studio thing that is basically vibe coding).</p>
-<h2 id="vibe-coding-and-how-it-affects-beginners" tabindex="-1"><a href="http://localhost:8000/posts/my-thoughts-on-ai/#vibe-coding-and-how-it-affects-beginners" class="header-anchor">Vibe coding and how it affects beginners</a></h2>
+<h2 id="vibe-coding-and-how-it-affects-beginners" tabindex="-1"><a href="https://magoninho.github.io/posts/my-thoughts-on-ai/#vibe-coding-and-how-it-affects-beginners" class="header-anchor">Vibe coding and how it affects beginners</a></h2>
 <p>But what is vibe coding? So, there was this new trend, where you use AI to build apps for you and you don't even have to look at the code, you don't have to write, nor debug. Just let the AI do the job.</p>
 <p>What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you.</p>
 <p>And the first threats of AI generated code have already begun to emerge.</p>
 <p>We're facing a new era of programmers who are losing the capacity of reasoning and solving problems logically. They believe that thinking is a waste of time, they use AI for everything they struggle to reason, and they call this &quot;productivity&quot;. When in reality, they are just becoming ignorant programmers.</p>
-<img src="http://localhost:8000/img/thumb.png">
+<img src="https://magoninho.github.io/img/thumb.png">
 <sup>Picture of a vibe coder (AI generated)</sup>
 <p>This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.</p>
 <p>As Linus Torvalds once said:</p>
@@ -50,7 +50,7 @@
 <p>If Leonardo da Vinci had access to AI tools like ChatGPT, he’d likely become an even more prolific innovator—using AI to iterate on his engineering designs, explore new artistic styles, accelerate language learning, and analyze scientific data far beyond his time. With tools to simulate his inventions, translate texts, and visualize complex anatomy, he could’ve leapt centuries ahead in multiple fields. He might have even used AI as a constant thought <strong>partner</strong>, helping organize his boundless curiosity into structured, actionable ideas.</p>
 </blockquote>
 <p>Notice the word <strong>&quot;partner&quot;</strong>, that's the point.</p>
-<h2 id="conclusion" tabindex="-1"><a href="http://localhost:8000/posts/my-thoughts-on-ai/#conclusion" class="header-anchor">Conclusion</a></h2>
+<h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/posts/my-thoughts-on-ai/#conclusion" class="header-anchor">Conclusion</a></h2>
 <p>So, please, use AI mindfully, as I said, use it as a partner, as a tool. Instead of asking AI to write an email for your boss, write the email first with your own words, and then ask AI to correct grammar mistakes and improve the text. Instead of asking AI to implement a full stack application for you, ask it where to start, ask it to break it down into key components and explain how they would work together, so you can implement by yourself. That will make you a better programmer and train your brain for real challenges. Stop sacrificing knowledge for speed.</p>
 <p>Do I think AI will replace programmers? I guess that's really hard to happen, since programming involves way more than just code, it's a very complex field, and we have already seen the problem of AI generated code when we saw some vibe coded apps getting hacked so easily and with a questionable quality.</p>
 <p>That's it for today guys, comment down below if you want to see more videos like this or if I should keep doing technical tutorials only.</p>
@@ -62,15 +62,15 @@
     </item>
     <item>
       <title>Hack Your Keyboard for Effortless snake_case: Windows and Linux Guide</title>
-      <link>http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/</link>
-      <guid isPermaLink="false">http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/</guid>
+      <link>https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/</guid>
       <content:encoded>
         <![CDATA[<p>For me, snake_case is the best naming convention when writing code. It's easy to read and easy to type. And now, it became <em>even more easier</em> to type after I discovered that I could remap shift+space to give me the underscore character more precisely and comfortably.</p>
 <p>However, every operating system have their particularities and I've made my own research to find out how to remap these keys on Windows and Linux. (I don't know how to achieve this on macos since I don't own an apple computer).</p>
 <!-- more -->
-<h2 id="how-to-remap-on-linux" tabindex="-1"><a href="http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/#how-to-remap-on-linux" class="header-anchor">How to remap on Linux</a></h2>
+<h2 id="how-to-remap-on-linux" tabindex="-1"><a href="https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/#how-to-remap-on-linux" class="header-anchor">How to remap on Linux</a></h2>
 <p>Depending on the desktop environment that you're using, it may offer you a built in functionality that allows you to remap keys. But, in this article I'll try to show more universal alternatives that are not desktop environment specific.</p>
-<h3 id="x11-systems" tabindex="-1"><a href="http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/#x11-systems" class="header-anchor">X11 systems</a></h3>
+<h3 id="x11-systems" tabindex="-1"><a href="https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/#x11-systems" class="header-anchor">X11 systems</a></h3>
 <p>Steps using <strong>xmodmap</strong> (built-in):</p>
 <ol>
 <li>Find the keycode for Shift+Space: Open a terminal and run:</li>
@@ -101,7 +101,7 @@
 <p class="markdown-alert-title">Important</p>
 <p>This works on X11, not Wayland (used in newer GNOME/KDE setups). For Wayland, please read the next section.</p>
 </div>
-<h3 id="wayland-systems" tabindex="-1"><a href="http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/#wayland-systems" class="header-anchor">Wayland systems</a></h3>
+<h3 id="wayland-systems" tabindex="-1"><a href="https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/#wayland-systems" class="header-anchor">Wayland systems</a></h3>
 <p>For wayland, there are different software alternatives you can use, but the one I found easier to use was <a href="https://github.com/rvaiya/keyd">keyd</a></p>
 <ol>
 <li>Follow the instructions on the <a href="https://github.com/rvaiya/keyd">keyd github repo</a> for instructions on how to install it on your operating system.</li>
@@ -123,7 +123,7 @@ sudo systemctl enable --now keyd
 space = _
 </code></pre>
 <p>This will remap the behavior of space when shift is being hold, outputting the underscore character we wanted. The <code>[ids]</code> section is required, if you want to explore more about this software, visit the repository for more information.</p>
-<h2 id="how-to-remap-keys-on-windows" tabindex="-1"><a href="http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/#how-to-remap-keys-on-windows" class="header-anchor">How to Remap Keys on Windows</a></h2>
+<h2 id="how-to-remap-keys-on-windows" tabindex="-1"><a href="https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/#how-to-remap-keys-on-windows" class="header-anchor">How to Remap Keys on Windows</a></h2>
 <p>Remapping keys on Windows is surprisingly simple, thanks to <strong>AutoHotKey</strong> — a powerful and flexible tool that many Linux users wish they had.</p>
 <ol>
 <li>
@@ -147,7 +147,7 @@ To make the script launch automatically every time you boot:</p>
 </ul>
 </li>
 </ol>
-<h2 id="conclusion" tabindex="-1"><a href="http://localhost:8000/posts/hack-your-keyboard-for-effortless-snake-case/#conclusion" class="header-anchor">Conclusion</a></h2>
+<h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/posts/hack-your-keyboard-for-effortless-snake-case/#conclusion" class="header-anchor">Conclusion</a></h2>
 <p>After some training, you can get enough muscle memory to become more faster on typing underscores</p>
 <p>Well, snake_case is very awesome, but that doesn't matter that much, because the true value got from this research was the discover of these remapping softwares, and how they can be used to achieve even more different functions in your keyboard as you like.</p>
 ]]>
@@ -156,8 +156,8 @@ To make the script launch automatically every time you boot:</p>
     </item>
     <item>
       <title>Why I think Web Development is not real programming</title>
-      <link>http://localhost:8000/posts/webdev-sucks/</link>
-      <guid isPermaLink="false">http://localhost:8000/posts/webdev-sucks/</guid>
+      <link>https://magoninho.github.io/posts/webdev-sucks/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/posts/webdev-sucks/</guid>
       <content:encoded>
         <![CDATA[<p>I remember back in 2017 when I started learning to code. I wanted to create a simple website to send my friends and have fun. I didn't understand nothing about programming and web development, and suddenly I was learning HTML, CSS and JavaScript. I never imagined that this simple decision would lead me to where I am right now. But at that time, web development was way simpler than how it is today. I could follow it very well and I was creating a lot of cool stuff. Yes, believe it or not, JavaScript was actually my first language, and I enjoyed it.</p>
 <!-- more -->
@@ -169,17 +169,17 @@ To make the script launch automatically every time you boot:</p>
 <p><img src="https://learnopengl.com/img/getting-started/shaders3.png" alt="opengl triangle"></p>
 <p>For many, that doesn't mean that much, but for experienced programmers, they know this is a task that not many programmers have the interest of doing. For a junior like me, it was certainly impressive. At the time, I created my <a href="https://www.youtube.com/@pythonista_333">YouTube channel</a> I even did a <a href="https://github.com/Magoninho/raycasting-python">raycaster using python!</a> As well as a <a href="https://youtu.be/E18bSJezaUE">tutorial</a> for it on my channel!</p>
 <p><img src="https://github.com/Magoninho/raycasting-python/raw/master/demo2.gif" alt="raycaster"></p>
-<h2 id="what-is-real-programming-for-me" tabindex="-1"><a href="http://localhost:8000/posts/webdev-sucks/#what-is-real-programming-for-me" class="header-anchor">What is real programming for me</a></h2>
+<h2 id="what-is-real-programming-for-me" tabindex="-1"><a href="https://magoninho.github.io/posts/webdev-sucks/#what-is-real-programming-for-me" class="header-anchor">What is real programming for me</a></h2>
 <p>Can you see? All of this stuff is <strong>real programming</strong>, I was really learning about low level concepts, about computer graphics, how GPUs work, I started using linux and learned how to use the command line. Overall, my computer science basis was growing and growing. For a junior? That's impressive.</p>
 <p>I'm not saying that I was going to become the next Linus Torvalds or the next Terry Davis. Actually, the projects I did weren't that big of a deal for society at all, they didn't solve real world problems, I didn't made the next big operating system, I didn't made the next big triple A game. But, for me, the most important thing was the fact that I demonstrated a lot of interest in programming.</p>
-<h2 id="the-beginning-of-college" tabindex="-1"><a href="http://localhost:8000/posts/webdev-sucks/#the-beginning-of-college" class="header-anchor">The beginning of college</a></h2>
+<h2 id="the-beginning-of-college" tabindex="-1"><a href="https://magoninho.github.io/posts/webdev-sucks/#the-beginning-of-college" class="header-anchor">The beginning of college</a></h2>
 <p>Back to my story, in 2023, I entered college, and I was crushing it, I was having such a better experience than the others, simply because I already got a decent experience. In some of my first classes we had JavaScript and Calculus, and I was enjoying it, because I already knew JavaScript and I liked math enough to also like Calculus. I even received a scholarship from a professor, just because he thought I deserved it! I felt so honored at that time.</p>
 <p>The second semester was also pretty nice, we had to use the Godot game engine, which I already knew a lot, <a href="https://lapadagames.itch.io/">and I made some awesome games</a> there.</p>
-<h2 id="the-reality-shock" tabindex="-1"><a href="http://localhost:8000/posts/webdev-sucks/#the-reality-shock" class="header-anchor">The reality shock</a></h2>
+<h2 id="the-reality-shock" tabindex="-1"><a href="https://magoninho.github.io/posts/webdev-sucks/#the-reality-shock" class="header-anchor">The reality shock</a></h2>
 <p>But then, in the third semester things started to decay. It just wasn't how it was before. My scholarship ended. College was getting more expensive. I lost friends and it was my fault. The course started to get harder. And I started to worry about getting a job.</p>
 <p><strong>Then I realized that I knew basically nothing about web dev in general</strong>. I never did a simple CRUD system, I never did an online store, or even, <em>a todo list</em> (actually i made a todo list with mysql database later in the course but it was so easy to make that i didn't even care about pushing it to github).</p>
 <p>I realized that I was doomed.</p>
-<h2 id="web-development-is-boring" tabindex="-1"><a href="http://localhost:8000/posts/webdev-sucks/#web-development-is-boring" class="header-anchor">Web development is boring</a></h2>
+<h2 id="web-development-is-boring" tabindex="-1"><a href="https://magoninho.github.io/posts/webdev-sucks/#web-development-is-boring" class="header-anchor">Web development is boring</a></h2>
 <p>Alright, it was time to start learning web development again so I could find a job. I had no choice but to switch to backend development, because frontend development is just a whole mess. As a backend developer I could choose any programming language I wanted. I mean, you can build an API with anything you want.</p>
 <p>But the problem was that I wasn't having <em>the fun</em> anymore. I wasn't excited like I was before. I started to notice that web development is not actual programming. It is just a lot of complexity that you have to deal with. But it's not a complexity that is enjoyable to explore. It's just boring asf.</p>
 <p>For me, web development is about trying to make a bunch of javascript frameworks work together and dealing with the conflicts they generate, and that's all about it. You just need to understand how things work once, and then you build a lot of projects just to get more efficient at it.</p>
@@ -187,7 +187,7 @@ To make the script launch automatically every time you boot:</p>
 <p>I mean, these tasks are so repetitive, that AI can successfully replace a junior dev at this point. It's all about doing the same task. The only difference is the stack the company uses.</p>
 <p>Basically, you can't be a good programmer in the web development world. Because there is all this complexity you have to deal with, but it's all fake complexity. Fundamentally, how the web works is simple, but people made it harder over the years. So, all the challenges that people fight over in web development are not going to contribute to your computing knowledge.</p>
 <p>Someday, the web will collapse. It might take a few years, but at some point, it will happen.</p>
-<h2 id="conclusion" tabindex="-1"><a href="http://localhost:8000/posts/webdev-sucks/#conclusion" class="header-anchor">Conclusion</a></h2>
+<h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/posts/webdev-sucks/#conclusion" class="header-anchor">Conclusion</a></h2>
 <p>I was so excited about computers and programming in the past, but now I am being forced to learn things that are just so superficial and boring that I just don't feel happy anymore. But I've got no choice, if I wanna get hired I have to learn it, because web development basically rules the job market now.</p>
 <p>Like ThePrimeGen once said in a live stream, if he could start over, he would learn web development just to get a job, but he would find time to study things that he wanted to. I feel the same way, web development became a thing that most of us need to learn just to get hired. But <strong>real programming</strong> is something we do as a side quest or maybe at an academic environment.</p>
 ]]>
@@ -196,14 +196,14 @@ To make the script launch automatically every time you boot:</p>
     </item>
     <item>
       <title>A very useful guide on how to use yt-dlp</title>
-      <link>http://localhost:8000/posts/very-useful-guide-on-yt-dlp/</link>
-      <guid isPermaLink="false">http://localhost:8000/posts/very-useful-guide-on-yt-dlp/</guid>
+      <link>https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/</guid>
       <content:encoded>
         <![CDATA[<p>I've been using <code>yt-dlp</code> for a long time and it has been very useful for me in the daily basis. When I want to download a video or a song from youtube, it really comes in handy to have a tool that is not bloated with ads and fake download buttons like those youtube downloader clients we see over the internet.</p>
 <!-- more -->
 <p><code>yt-dlp</code> is a powerful tool packed with features, but that’s also what makes it <strong>challenging to learn</strong>. It offers a wide range of functionalities, many of which go unused by the average user. Most people simply want to download videos as MP4 or songs as MP3, without having to navigate its extensive options.</p>
 <p>My goal is to summarize some commands that I think are the most useful for the daily basis.</p>
-<h2 id="installation" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#installation" class="header-anchor">Installation</a></h2>
+<h2 id="installation" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#installation" class="header-anchor">Installation</a></h2>
 <p>You can <a href="https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation">visit the official github repository</a> to find the steps on how to install it.</p>
 <div class="markdown-alert markdown-alert-important">
 <p class="markdown-alert-title">Important</p>
@@ -215,11 +215,11 @@ To make the script launch automatically every time you boot:</p>
 <p>To install ffmpeg on <strong>Ubuntu</strong> or derivatives run the following command on terminal:</p>
 <pre><code class="language-bash">sudo apt install ffmpeg
 </code></pre>
-<h2 id="download-in-mp3" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#download-in-mp3" class="header-anchor">Download in MP3</a></h2>
+<h2 id="download-in-mp3" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#download-in-mp3" class="header-anchor">Download in MP3</a></h2>
 <p>If you want to download a video or a playlist from YouTube and automatically convert it to mp3, run the following command:</p>
 <pre><code>yt-dlp &lt;link for video or playlist&gt; -x --audio-format mp3
 </code></pre>
-<h3 id="downloading-playlist-with-numbered-files" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#downloading-playlist-with-numbered-files" class="header-anchor">Downloading playlist with numbered files</a></h3>
+<h3 id="downloading-playlist-with-numbered-files" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#downloading-playlist-with-numbered-files" class="header-anchor">Downloading playlist with numbered files</a></h3>
 <p>If you want to download a playlist with numbered files like...</p>
 <pre><code>01 - File 1.mp3
 02 - File 2.mp3
@@ -229,15 +229,15 @@ To make the script launch automatically every time you boot:</p>
 <p>...you can run the following command:</p>
 <pre><code>yt-dlp -o &quot;%(playlist_index)s - %(title)s.%(ext)s&quot; &lt;link&gt; -x --audio-format mp3
 </code></pre>
-<h2 id="download-mp4-video" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#download-mp4-video" class="header-anchor">Download MP4 video</a></h2>
+<h2 id="download-mp4-video" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#download-mp4-video" class="header-anchor">Download MP4 video</a></h2>
 <p>If you want to download a video from YouTube in the MP4 format, run the following command:</p>
 <pre><code>yt-dlp &lt;link&gt; -S ext
 </code></pre>
-<h3 id="compatibility-with-video-editors-(like-davinci-resolve)" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#compatibility-with-video-editors-(like-davinci-resolve)" class="header-anchor">Compatibility with video editors (like Davinci Resolve)</a></h3>
+<h3 id="compatibility-with-video-editors-(like-davinci-resolve)" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#compatibility-with-video-editors-(like-davinci-resolve)" class="header-anchor">Compatibility with video editors (like Davinci Resolve)</a></h3>
 <p>If you wish to download videos using <code>yt-dlp</code> and use them in Davinci Resolve, you'll need to recode the video to the MOV format. Thankfully, <code>yt-dlp</code> provides a feature to do so. Just run the following command:</p>
 <pre><code>yt-dlp &lt;link&gt; --recode-video mov
 </code></pre>
-<h2 id="conclusion" tabindex="-1"><a href="http://localhost:8000/posts/very-useful-guide-on-yt-dlp/#conclusion" class="header-anchor">Conclusion</a></h2>
+<h2 id="conclusion" tabindex="-1"><a href="https://magoninho.github.io/posts/very-useful-guide-on-yt-dlp/#conclusion" class="header-anchor">Conclusion</a></h2>
 <p>In my opinion, these were the most useful commands I could provide</p>
 ]]>
       </content:encoded>
@@ -245,8 +245,8 @@ To make the script launch automatically every time you boot:</p>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:8000/posts/welcome/</link>
-      <guid isPermaLink="false">http://localhost:8000/posts/welcome/</guid>
+      <link>https://magoninho.github.io/posts/welcome/</link>
+      <guid isPermaLink="false">https://magoninho.github.io/posts/welcome/</guid>
       <content:encoded>
         <![CDATA[<p>I have finally created a blog for myself! I was really looking forward to do so. One of the reasons being that I really wanted to put my english writing skills to the next level. As well as because I recently got a new keyboard, and a mechanical one, and I am really enjoying to type on this thing (I pretend to make a blog post about how typing is very important for programmers). And another good reason is that when I was 10 years old, it was 2015, and everybody had a blog. I really wanted a blog too, so it was like a little dream of mine. This was also another reason for me to start learning to code when I was younger.</p>
 <!--more-->
