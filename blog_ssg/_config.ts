@@ -3,11 +3,9 @@ import blog from "blog/mod.ts";
 import highlight from "lume/plugins/code_highlight.ts";
 
 const site = lume({
-  location: new URL("https://magoninho.github.io/"),
+  location: new URL("https://magoninho.github.io/blog"),
   dest: "../blog"
 });
-
-site.copy('img'); 
 
 site.use(blog());
 site.use(highlight({
@@ -17,5 +15,6 @@ site.use(highlight({
     placeholder: "atom-one-light", // Optional placeholder to replace with the final code
   },
 }));
+site.copy('img'); 
 
 export default site;
