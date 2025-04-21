@@ -2,6 +2,8 @@
 title: "My thoughts on AI and how it can affect beginners"
 date: 2025-04-21
 author: João Felipe Ribeiro
+metas:
+    image: "$ img.cover attr(src)"
 tags:
     - 2025
     - programming
@@ -24,7 +26,7 @@ What's the problem with this approach? Well, you simply lose the ability to thin
 
 <img src="/img/thumb.png">
 
-This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, just don't use AI like that, you won't learn anything if you do.
+This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.
 
 As Linus Torvalds once said:
 | “Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.” — Linus Torvalds, creator of Linux  |  ![linus torvalds](https://cdn.facesofopensource.com/wp-content/uploads/2017/02/09202215/linus.faces22052.web_.jpg) |
@@ -47,7 +49,7 @@ I was thinking, what a genius inventor like Leonardo DaVinci would do if he had 
 Notice the word **"partner"**, that's the point.
 
 ## Conclusion
-So, please, use AI correctly, as I said, use it as a partner. Instead of asking AI to write an email for your boss, write the email first with your own words, and then ask AI to correct grammar mistakes and improve the text. Instead of asking AI to implement a full stack application for you, ask it where to start, ask it to break it down into key components and explain how they would work together, so you can implement by yourself. That will make you a better programmer and not a lazy programmer who doesn't like to think.
+So, please, use AI mindfully, as I said, use it as a partner, as a tool. Instead of asking AI to write an email for your boss, write the email first with your own words, and then ask AI to correct grammar mistakes and improve the text. Instead of asking AI to implement a full stack application for you, ask it where to start, ask it to break it down into key components and explain how they would work together, so you can implement by yourself. That will make you a better programmer and train your brain for real challenges. Stop sacrificing knowledge for speed.
 
 Do I think AI will replace programmers? I guess that's really hard to happen, since programming involves way more than just code, it's a very complex field, and we have already seen the problem of AI generated code when we saw some vibe coded apps getting hacked so easily and with a questionable quality.
 
