@@ -1,5 +1,5 @@
 ---
-title: "My thoughts on AI and how it can affect beginners"
+title: "We need to change the way we use AI, or the future of software will be in danger"
 date: 2025-04-21
 author: João Felipe Ribeiro
 metas:
