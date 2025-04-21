@@ -22,9 +22,14 @@ Since the beginning of this AI revolution, I have been very skeptical about it r
 ## Vibe coding and how it affects beginners
 But what is vibe coding? So, there was this new trend, where you use AI to build apps for you and you don't even have to look at the code, you don't have to write, nor debug. Just let the AI do the job.
 
-What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you. So you just look like this image here.
+What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you.
+
+And the first threats of AI generated code have already begun to emerge.
+
+We're facing a new era of programmers who are losing the capacity of reasoning and solving problems logically. They believe that thinking is a waste of time, they use AI for everything they struggle to reason, and they call this "productivity". When in reality, they are just becoming ignorant programmers.
 
 <img src="/img/thumb.png">
+<sup>Picture of a vibe coder (AI generated)</sup>
 
 This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.
 

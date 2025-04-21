@@ -23,8 +23,11 @@
 <p>Since the beginning of this AI revolution, I have been very skeptical about it replacing developer jobs. But today, I see that this is not the problem yet, the main issue is how developers are using AI in their daily basis and how some companies are supporting bad practices (like google's recent firebase studio thing that is basically vibe coding).</p>
 <h2 id="vibe-coding-and-how-it-affects-beginners" tabindex="-1"><a href="http://localhost:8000/posts/my-thoughts-on-ai/#vibe-coding-and-how-it-affects-beginners" class="header-anchor">Vibe coding and how it affects beginners</a></h2>
 <p>But what is vibe coding? So, there was this new trend, where you use AI to build apps for you and you don't even have to look at the code, you don't have to write, nor debug. Just let the AI do the job.</p>
-<p>What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you. So you just look like this image here.</p>
+<p>What's the problem with this approach? Well, you simply lose the ability to think by yourself and become to dependent on AI for everything. Programming loses it's meaning. It was supposed to be a challenge, but now you let the robot do it for you.</p>
+<p>And the first threats of AI generated code have already begun to emerge.</p>
+<p>We're facing a new era of programmers who are losing the capacity of reasoning and solving problems logically. They believe that thinking is a waste of time, they use AI for everything they struggle to reason, and they call this &quot;productivity&quot;. When in reality, they are just becoming ignorant programmers.</p>
 <img src="http://localhost:8000/img/thumb.png">
+<sup>Picture of a vibe coder (AI generated)</sup>
 <p>This, is very very bad for beginners. Listen, if you are a beginner in this field of computer science and programming, using AI is probably the worst thing you can do. It's like giving a calculator a child who is learning basic math.</p>
 <p>As Linus Torvalds once said:</p>
 <table>
