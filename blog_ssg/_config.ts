@@ -15,5 +15,6 @@ site.use(highlight({
     placeholder: "atom-one-light", // Optional placeholder to replace with the final code
   },
 }));
+site.copy('/img')
 
 export default site;
